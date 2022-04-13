@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Spline+Sans:wght@600&display=swap');
+
+        body {
+
+            margin: 0px;
+            padding: 0%;
+            background: url(gym2.webp);
+            background-size: 100% 150%;
+
+            background-repeat: no-repeat;
+        }
+
+        .container {
+            height: 500px;
+        }
+
+        .left {
+            /* border: 2px solid blue; */
+            display: inline-block;
+            position: absolute;
+            left: 50px;
+            top: 30px;
+            text-align: center;
+        }
+
+        .mid {
+            /* border: 2px solid red; */
+
+            display: block;
+            width: 36%;
+            margin: 29px auto;
+
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: #f1f1f1;
+            text-decoration: none;
+            padding: 0px 19px;
+            font-size: 20px;
+        }
+        
+        .right {
+            /* border: 2px solid yellowgreen; */
+            
+            position: absolute;
+            right: 34px;
+            top: 43px;
+            display: inline-block;
+            
+        }
+        
+        .left img {
+            width: 62px;
+        }
+        
+        .left div {
+            text-align: center;
+            line-height: 17px;
+        }
+        
+        .btn {
+            margin: 0px 9px;
+            padding: 4px 14px;
+            border-radius: 9px;
+            background-color: lightblue;
+            width: 100px;
+            height: 40px;
+            font-size: 15px;
+        }
+        
+        .input-group input {
+            border: 2px solid violet;
+            text-align: center;
+            /* margin: 0px 0px; */
+            display: block;
+            margin: 6px 0px;
+        }
+        button a{
+            text-decoration: none;
+            color: black;
+        }
+        
+        .input-button {
+            /* margin-top: 55px; */
+            height: 25px;
+            width: 350px;
+            border-radius: 10px;
+            /* float: left; */
+            /* margin-left: 5px; */
+        }
+        
+        .input-group {
+            
+            border: 3px solid palevioletred;
+            width: 200px;
+            margin: 250px 45px;
+            padding: 30px 75px;
+            width: 300px;
+            border-radius: 14%;
+            /* float: left; */
+            
+            
+        }
+        
+        h3 {
+            
+            padding: 0px 0px;
+            margin: 0px 0px;
+            color: #f1f1f1;
+            text-align: centers;
+            /* color: darkgoldenrod; */
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .navbar li a:hover {
+
+            color: chartreuse;
+
+        }
+        .sub-group{
+
+            margin-left: -20px;
+        }
+
+        .btn:hover {
+            background-color: #baa48a
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="left">
+            <!-- <img src="1.jpg" alt=""> -->
+            <!-- <div> Welcome to gym</div> -->
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="home.html" class="active">Home</a></li>
+                <li><a href="#">about us</a></li>
+                <li><a href="#">fitness calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+
+            <!-- <button class="btn">Call for</button> -->
+            <button class="btn"><a href="mailto:sohelshaikh5279@gmail.com">Email us</a></button>
+
+        </div>
+        <div class="input-group">
+            <div class="sub-group">
+
+                <form action="">
+                    <h3>Welcome to register form</h3>
+                    <input type="text" class="input-button" name="firstname" placeholder="Enter your name">
+                    <input type="text" class="input-button" name="age" placeholder="Enter your Age">
+                    <input type="text" class="input-button" name="city" placeholder="Enter your City">
+                    <input type="text" class="input-button" name="weight" placeholder="Enter your Weight">
+                    <input type="submit" class="input-button">
+                    
+                </form>
+                
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
